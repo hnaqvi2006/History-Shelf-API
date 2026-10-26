@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>History Shelf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>History Shelf</h1>
+    <p>A little library of Middle Eastern history, powered by my own Node.js API</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Eras on the Shelf</h2>
+      <div id="eraList"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Add a Book</h2>
+      <form id="bookForm">
+        <input id="title" placeholder="Book title">
+        <input id="author" placeholder="Author">
+        <input id="era" placeholder="Era (e.g. Ottoman)">
+        <button type="submit">Add Book</button>
+      </form>
+      <p id="message"></p>
+    </section>
+
+    <section class="panel">
+      <h2>All Books</h2>
+      <div id="bookList"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

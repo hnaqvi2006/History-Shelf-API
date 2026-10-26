@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #f6f1e7;
+  color: #3b2f2a;
+}
+
+header {
+  background: #6b2d2d;
+  color: #f6f1e7;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.panel {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #6b2d2d;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  min-width: 160px;
+  padding: 10px;
+  border: 1px solid #cbbfae;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background: #6b2d2d;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8a3c3c;
+}
+
+.era {
+  display: inline-block;
+  background: #e8dcc6;
+  padding: 6px 14px;
+  margin: 4px;
+  border-radius: 20px;
+}
+
+#bookList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.book {
+  border-left: 5px solid #6b2d2d;
+  background: #faf7f1;
+  padding: 12px 15px;
+  border-radius: 6px;
+}
+
+.book h3 {
+  margin: 0 0 6px;
+}
+
+.book p {
+  margin: 0;
+  color: #7a6a5f;
+}
+
+.success {
+  color: #2e7d32;
+}
+
+.error {
+  color: #c62828;
+}

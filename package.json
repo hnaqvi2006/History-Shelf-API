@@ -1,7 +1,12 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "name": "history-shelf-api",
+  "version": "1.0.0",
+  "description": "A small Express API for a history book collection",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
   }
 }
